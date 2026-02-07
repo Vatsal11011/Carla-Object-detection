@@ -1,21 +1,28 @@
+# Carla Object Detection 🚗👁️
 
-# Carla Object Detection
+CARLA is an open-world simulator widely used for developing and testing autonomous driving systems.  
+This project integrates **YOLOv4** with the **CARLA Simulator** to perform **real-time object detection** while driving a simulated vehicle. The detected objects can later be used for dataset generation and training self-driving models.
 
-Carla is an open world simulator which is widely used for training self driving cars and this project integrates YOLOv4 into Carla simulator which detect objects in real time while driving the car, which can be later used for training the model.
+---
 
+## Features
 
+- Real-time object detection using YOLOv4  
+- Integration with CARLA simulator  
+- Manual driving control  
+- Detection of vehicles, pedestrians, and other objects  
+- Useful for training and evaluation of autonomous driving models  
 
-## Deployment
+---
 
-Firstly run the carla server in command windows
+## Demo Video 🎥
 
-```bash
-CarlaUE4 -windowed -carla-server
-```
+Watch the project demo here:
 
-Then to run the object detection with a simulated car run the manual control file in the folder
+🔗 **Google Drive Link:**  
+https://drive.google.com/drive/folders/1XLZkHW4puMvjgYTs90Kjnnx9Fbyia39q?usp=sharing
 
-```bash
-Python manual_control.py
-```
+---
 
+## Screenshots 📸
+![Real-time Detection in CARLA](images/carla_results.png)
